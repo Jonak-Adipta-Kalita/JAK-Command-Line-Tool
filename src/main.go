@@ -15,7 +15,7 @@ func main() {
 	app.Commands = []cli.Command {
 		{
 			Name: "name",
-			Usage: "Get JAK's full name!!",
+			Usage: "Get JAK's Full Name!!",
 			Action: func(c *cli.Context) error {
 				fmt.Println("Jonak Adipta Kalita")
 				return nil

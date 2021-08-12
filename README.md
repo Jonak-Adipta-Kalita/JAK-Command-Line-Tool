@@ -18,7 +18,7 @@ jak_command_line_tool [command]
 ```
 
 ## Commands
--	name: Prints JAK's full Name
+-	name: Prints JAK's Full Name
 -	class_and_section: Prints JAK's Class and Section
 -	class: Prints JAK's Class
 -	section: Prints JAK's Section
