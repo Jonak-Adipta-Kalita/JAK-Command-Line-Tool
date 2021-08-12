@@ -22,6 +22,7 @@ jak_command_line_tool [command]
 -	class_and_section: Prints JAK's Class and Section
 -	class: Prints JAK's Class
 -	section: Prints JAK's Section
+- 	website: Prints JAK's Website Link
 
 ## Contribute
 
