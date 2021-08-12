@@ -45,6 +45,14 @@ func main() {
 				return nil
 			},
 		},
+		{
+			Name: "website",
+			Usage: "Get JAK's Website Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://jonakadiptakalita.herokuapp.com/")
+				return nil
+			},
+		},
 	}
 	
 	err := app.Run(os.Args)
