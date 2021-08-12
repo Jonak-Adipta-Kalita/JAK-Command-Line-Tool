@@ -31,6 +31,18 @@ To Clone this Repository, open a terminal in a empty folder and type
 git clone https://github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool.git
 ```
 
+### Test the CLI
+Open your favourite terminal in the Directory of the Cloned Repository and type
+```bash
+go run main.go
+```
+
+### Build EXE
+Open your favourite terminal in the Directory of the Cloned Repository and type
+```bash
+go build main.go
+```
+
 ## Contributors
 <a href = "https://github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool/graphs/contributors">
 	<img src = "https://contrib.rocks/image?repo=Jonak-Adipta-Kalita/JAK-Command-Line-Tool"/>
