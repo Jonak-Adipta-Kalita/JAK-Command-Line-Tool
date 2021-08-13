@@ -34,6 +34,7 @@ JAK-Command-Line-Tool [command]
 - 	twitch: Prints JAK's Twitch's Link
 - 	itch_io: Prints JAK's Itch.io's Link
 - 	spotify: Prints JAK's Spotify's Link
+- 	school: Prints JAK's School's Full Name
 
 ## Contribute
 

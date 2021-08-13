@@ -135,9 +135,17 @@ func main() {
 		},
 		{
 			Name: "spotify",
-			Usage: "Get JAK's Itch.io's Link!!",
+			Usage: "Get JAK's Spotify's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://jonak-adipta-kalita.itch.io/")
+				fmt.Println("https://open.spotify.com/user/31cypdycu52u6rj3bsfcldmqrlji")
+				return nil
+			},
+		},
+		{
+			Name: "school",
+			Usage: "Get JAK's School's Full Name",
+			Action: func(c *cli.Context) error {
+				fmt.Println("Kendriya Vidyalaya, Mangaldoi")
 				return nil
 			},
 		},
