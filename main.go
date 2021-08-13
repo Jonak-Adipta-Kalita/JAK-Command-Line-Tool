@@ -47,9 +47,97 @@ func main() {
 		},
 		{
 			Name: "website",
-			Usage: "Get JAK's Website Link!!",
+			Usage: "Get JAK's Website's Link!!",
 			Action: func(c *cli.Context) error {
 				fmt.Println("https://jonakadiptakalita.herokuapp.com/")
+				return nil
+			},
+		},
+		{
+			Name: "api",
+			Usage: "Get JAK's API's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://jak-api-dot-com.herokuapp.com/")
+				return nil
+			},
+		},
+		{
+			Name: "discord_bot",
+			Usage: "Get JAK's Discord Bot's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://discord.com/oauth2/authorize?client_id=756402881913028689&scope=bot")
+				return nil
+			},
+		},
+		{
+			Name: "youtube",
+			Usage: "Get JAK's YouTube Channel's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://www.youtube.com/channel/UC6IPfVhkqfcfBZCko6Q9mnQ")
+				return nil
+			},
+		},
+		{
+			Name: "instagram",
+			Usage: "Get JAK's Instagram's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://www.instagram.com/xxjonakadiptaxx/")
+				return nil
+			},
+		},
+		{
+			Name: "github",
+			Usage: "Get JAK's Github's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://github.com/Jonak-Adipta-Kalita")
+				return nil
+			},
+		},
+		{
+			Name: "twitter",
+			Usage: "Get JAK's Twitter's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://twitter.com/AdiptaJonak")
+				return nil
+			},
+		},
+		{
+			Name: "discord",
+			Usage: "Get JAK's Discord Server's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://discord.gg/S3UfGkW")
+				return nil
+			},
+		},
+		{
+			Name: "reddit",
+			Usage: "Get JAK's Reddit Comunity's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://www.reddit.com/r/BeastNight_TV/")
+				return nil
+			},
+		},
+		{
+			Name: "twitch",
+			Usage: "Get JAK's Twitch's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://www.twitch.tv/jonakadiptakalita_2596/")
+				return nil
+			},
+		},
+		{
+			Name: "itch_io",
+			Usage: "Get JAK's Itch.io's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://jonak-adipta-kalita.itch.io/")
+				return nil
+			},
+		},
+		{
+			Name: "spotify",
+			Usage: "Get JAK's Itch.io's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://jonak-adipta-kalita.itch.io/")
 				return nil
 			},
 		},

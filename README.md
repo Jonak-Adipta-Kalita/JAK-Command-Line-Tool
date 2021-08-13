@@ -9,12 +9,12 @@
 ### Windows
 Open `Enviroment Settings App` and click on `Environment Variables` then click on `Path` in
 `User Variables for Admin` and click `Edit` now in the Popup click `New` and paste the File
-Directory Structure for the `jak_command_line_tool.exe` you downloaded from the releases.
+Directory Structure for the `JAK-Command-Line-Tool.exe` you downloaded from the releases.
 
 ## Usage
 Open your favourite terminal and type
 ```bash
-jak_command_line_tool [command]
+JAK-Command-Line-Tool [command]
 ```
 
 ## Commands
@@ -23,6 +23,17 @@ jak_command_line_tool [command]
 -	class: Prints JAK's Class
 -	section: Prints JAK's Section
 - 	website: Prints JAK's Website Link
+- 	api: Prints JAK's API Link
+- 	discord_bot: Prints JAK's Discord Bot's Link
+- 	youtube: Prints JAK's YouTube Channel Link
+- 	instagram: Prints JAK's Instagram Link
+- 	github: Prints JAK's Github Link
+- 	twitter: Prints JAK's Twitter Link
+- 	discord: Prints JAK's Discord Server Link
+- 	reddit: Prints JAK's Reddit Community's Link
+- 	twitch: Prints JAK's Twitch's Link
+- 	itch_io: Prints JAK's Itch.io's Link
+- 	spotify: Prints JAK's Spotify's Link
 
 ## Contribute
 
