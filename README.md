@@ -35,6 +35,8 @@ JAK-Command-Line-Tool [command]
 - 	itch_io: Prints JAK's Itch.io's Link
 - 	spotify: Prints JAK's Spotify's Link
 - 	school: Prints JAK's School's Full Name
+- 	mother_name: Prints JAK's Mother's Full Name
+- 	father_name: Prints JAK's Father's Full Name
 
 ## Contribute
 

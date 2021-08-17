@@ -149,6 +149,22 @@ func main() {
 				return nil
 			},
 		},
+		{
+			Name: "mother_name",
+			Usage: "Get JAK's Mother's Full Name",
+			Action: func(c * cli.Context) error {
+				fmt.Println("Namita Deka")
+				return nil
+			},
+		},
+		{
+			Name: "father_name",
+			Usage: "Get JAK's Father's Full Name",
+			Action: func(c *cli.Context) error {
+				fmt.Println("Hemanta Kalita")
+				return nil
+			},
+		},
 	}
 	
 	err := app.Run(os.Args)
