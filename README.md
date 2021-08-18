@@ -58,6 +58,10 @@ Open your favourite terminal in the Directory of the Cloned Repository and type
 go build main.go
 ```
 
+## Technology(s) Used
+
+-   Language: [Golang](https://golang.org/)
+
 ## Contributors
 <a href = "https://github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool/graphs/contributors">
 	<img src = "https://contrib.rocks/image?repo=Jonak-Adipta-Kalita/JAK-Command-Line-Tool"/>
