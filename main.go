@@ -165,6 +165,14 @@ func main() {
 				return nil
 			},
 		},
+		{
+			Name: "vscode_extension",
+			Usage: "Get JAK's VSCode Extension's Link!!",
+			Action: func(c *cli.Context) error {
+				fmt.Println("https://marketplace.visualstudio.com/items?itemName=JAKVSCodeExtension.jak-vscode-extension")
+				return nil
+			},
+		},
 	}
 	
 	err := app.Run(os.Args)

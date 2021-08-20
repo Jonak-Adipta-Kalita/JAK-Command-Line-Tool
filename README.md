@@ -37,6 +37,7 @@ JAK-Command-Line-Tool [command]
 - 	school: Prints JAK's School's Full Name
 - 	mother_name: Prints JAK's Mother's Full Name
 - 	father_name: Prints JAK's Father's Full Name
+-	vscode_extension: Get JAK's VSCode Extension's Link!!
 
 ## Contribute
 
