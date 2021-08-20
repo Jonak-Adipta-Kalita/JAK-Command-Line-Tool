@@ -4,8 +4,28 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"runtime"
+	"os/exec"
 	"github.com/urfave/cli"
 )
+
+func openBrowser(url string) {
+	var err error
+
+	switch runtime.GOOS {
+		case "linux":
+			err = exec.Command("xdg-open", url).Start()
+		case "windows":
+			err = exec.Command("rundll32", "url.dll,FileProtocolHandler", url).Start()
+		case "darwin":
+			err = exec.Command("open", url).Start()
+		default:
+			err = fmt.Errorf("Unsupported Platform!!")
+	}
+	if err != nil {
+		log.Fatal(err)
+	}
+}
 
 func main() {
 	app := cli.NewApp()
@@ -49,7 +69,8 @@ func main() {
 			Name: "website",
 			Usage: "Get JAK's Website's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://jonakadiptakalita.herokuapp.com/")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://jonakadiptakalita.herokuapp.com/")
 				return nil
 			},
 		},
@@ -57,7 +78,8 @@ func main() {
 			Name: "api",
 			Usage: "Get JAK's API's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://jak-api-dot-com.herokuapp.com/")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://jak-api-dot-com.herokuapp.com/")
 				return nil
 			},
 		},
@@ -65,7 +87,8 @@ func main() {
 			Name: "discord_bot",
 			Usage: "Get JAK's Discord Bot's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://discord.com/oauth2/authorize?client_id=756402881913028689&scope=bot")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://discord.com/oauth2/authorize?client_id=756402881913028689&scope=bot")
 				return nil
 			},
 		},
@@ -73,7 +96,8 @@ func main() {
 			Name: "youtube",
 			Usage: "Get JAK's YouTube Channel's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://www.youtube.com/channel/UC6IPfVhkqfcfBZCko6Q9mnQ")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://www.youtube.com/channel/UC6IPfVhkqfcfBZCko6Q9mnQ")
 				return nil
 			},
 		},
@@ -81,7 +105,8 @@ func main() {
 			Name: "instagram",
 			Usage: "Get JAK's Instagram's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://www.instagram.com/xxjonakadiptaxx/")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://www.instagram.com/xxjonakadiptaxx/")
 				return nil
 			},
 		},
@@ -89,7 +114,8 @@ func main() {
 			Name: "github",
 			Usage: "Get JAK's Github's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://github.com/Jonak-Adipta-Kalita")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://github.com/Jonak-Adipta-Kalita")
 				return nil
 			},
 		},
@@ -97,7 +123,8 @@ func main() {
 			Name: "twitter",
 			Usage: "Get JAK's Twitter's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://twitter.com/AdiptaJonak")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://twitter.com/AdiptaJonak")
 				return nil
 			},
 		},
@@ -105,7 +132,8 @@ func main() {
 			Name: "discord",
 			Usage: "Get JAK's Discord Server's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://discord.gg/S3UfGkW")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://discord.gg/S3UfGkW")
 				return nil
 			},
 		},
@@ -113,7 +141,8 @@ func main() {
 			Name: "reddit",
 			Usage: "Get JAK's Reddit Comunity's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://www.reddit.com/r/BeastNight_TV/")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://www.reddit.com/r/BeastNight_TV/")
 				return nil
 			},
 		},
@@ -121,7 +150,8 @@ func main() {
 			Name: "twitch",
 			Usage: "Get JAK's Twitch's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://www.twitch.tv/jonakadiptakalita_2596/")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://www.twitch.tv/jonakadiptakalita_2596/")
 				return nil
 			},
 		},
@@ -129,7 +159,8 @@ func main() {
 			Name: "itch_io",
 			Usage: "Get JAK's Itch.io's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://jonak-adipta-kalita.itch.io/")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://jonak-adipta-kalita.itch.io/")
 				return nil
 			},
 		},
@@ -137,7 +168,8 @@ func main() {
 			Name: "spotify",
 			Usage: "Get JAK's Spotify's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://open.spotify.com/user/31cypdycu52u6rj3bsfcldmqrlji")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://open.spotify.com/user/31cypdycu52u6rj3bsfcldmqrlji")
 				return nil
 			},
 		},
@@ -169,7 +201,8 @@ func main() {
 			Name: "vscode_extension",
 			Usage: "Get JAK's VSCode Extension's Link!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("https://marketplace.visualstudio.com/items?itemName=JAKVSCodeExtension.jak-vscode-extension")
+				fmt.Println("Opening in Browser!!")
+				openBrowser("https://marketplace.visualstudio.com/items?itemName=JAKVSCodeExtension.jak-vscode-extension")
 				return nil
 			},
 		},

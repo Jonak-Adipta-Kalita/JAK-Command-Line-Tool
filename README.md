@@ -22,22 +22,22 @@ JAK-Command-Line-Tool [command]
 -	class_and_section: Prints JAK's Class and Section
 -	class: Prints JAK's Class
 -	section: Prints JAK's Section
-- 	website: Prints JAK's Website Link
-- 	api: Prints JAK's API Link
-- 	discord_bot: Prints JAK's Discord Bot's Link
-- 	youtube: Prints JAK's YouTube Channel Link
-- 	instagram: Prints JAK's Instagram Link
-- 	github: Prints JAK's Github Link
-- 	twitter: Prints JAK's Twitter Link
-- 	discord: Prints JAK's Discord Server Link
-- 	reddit: Prints JAK's Reddit Community's Link
-- 	twitch: Prints JAK's Twitch's Link
-- 	itch_io: Prints JAK's Itch.io's Link
-- 	spotify: Prints JAK's Spotify's Link
+- 	website: Opens JAK's Website Link in the Browser
+- 	api: Opens JAK's API Link in the Browser
+- 	discord_bot: Opens JAK's Discord Bot's Link in the Browser
+- 	youtube: Opens JAK's YouTube Channel Link in the Browser
+- 	instagram: Opens JAK's Instagram Link in the Browser
+- 	github: Opens JAK's Github Link in the Browser
+- 	twitter: Opens JAK's Twitter Link in the Browser
+- 	discord: Opens JAK's Discord Server Link in the Browser
+- 	reddit: Opens JAK's Reddit Community's Link in the Browser
+- 	twitch: Opens JAK's Twitch's Link in the Browser
+- 	itch_io: Opens JAK's Itch.io's Link in the Browser
+- 	spotify: Opens JAK's Spotify's Link in the Browser
 - 	school: Prints JAK's School's Full Name
 - 	mother_name: Prints JAK's Mother's Full Name
 - 	father_name: Prints JAK's Father's Full Name
--	vscode_extension: Get JAK's VSCode Extension's Link!!
+-	vscode_extension: Opens JAK's VSCode Extension's Link in the Browser
 
 ## Contribute
 
