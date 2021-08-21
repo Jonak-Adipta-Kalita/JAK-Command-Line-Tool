@@ -1,6 +1,9 @@
 <div align=center>
 
 # JAK Command Line Tool
+![GitHub Repo Stars](https://img.shields.io/github/stars/Jonak-Adipta-Kalita/JAK-Command-Line-Tool?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/Jonak-Adipta-Kalita/JAK-Command-Line-Tool?style=for-the-badge)
+![GitHub Watchers](https://img.shields.io/github/watchers/Jonak-Adipta-Kalita/JAK-Command-Line-Tool?style=for-the-badge)
 
 </div>
 
