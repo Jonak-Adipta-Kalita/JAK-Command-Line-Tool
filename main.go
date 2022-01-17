@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"runtime"
 	"os/exec"
+	"runtime"
+
 	"github.com/urfave/cli"
 )
 
@@ -20,7 +21,7 @@ func openBrowser(url string) {
 		case "darwin":
 			err = exec.Command("open", url).Start()
 		default:
-			err = fmt.Errorf("Unsupported Platform!!")
+			err = fmt.Errorf("unsupported platform")
 	}
 	if err != nil {
 		log.Fatal(err)
@@ -31,7 +32,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "JAK Command Line Tool"
 	app.Usage = "Get details about JAK!!"
-	
+	app.Description = "A Command Line Tool made by JAK!!"
 	app.Commands = []cli.Command {
 		{
 			Name: "name",
@@ -42,26 +43,10 @@ func main() {
 			},
 		},
 		{
-			Name: "class_and_section",
-			Usage: "Get JAK's Class and Section!!",
-			Action: func(c *cli.Context) error {
-				fmt.Println("8 A")
-				return nil
-			},
-		},
-		{
 			Name: "class",
 			Usage: "Get JAK's Class!!",
 			Action: func(c *cli.Context) error {
-				fmt.Println("8")
-				return nil
-			},
-		},
-		{
-			Name: "section",
-			Usage: "Get JAK's Section!!",
-			Action: func(c *cli.Context) error {
-				fmt.Println("A")
+				fmt.Println("8 A")
 				return nil
 			},
 		},
@@ -88,7 +73,7 @@ func main() {
 			Usage: "Get JAK's Discord Bot's Link!!",
 			Action: func(c *cli.Context) error {
 				fmt.Println("Opening in Browser!!")
-				openBrowser("https://discord.com/oauth2/authorize?client_id=756402881913028689&scope=bot")
+				openBrowser("https://jak-discord-bot.vercel.app/")
 				return nil
 			},
 		},
@@ -207,7 +192,7 @@ func main() {
 			},
 		},
 	}
-	
+
 	err := app.Run(os.Args)
 
 	if err != nil {
