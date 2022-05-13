@@ -23,7 +23,7 @@ Directory Structure for the `JAK-Command-Line-Tool.exe` you downloaded from the 
 Open your favourite terminal and type
 
 ```bash
-JAK-Command-Line-Tool [command]
+JAK-Command-Line-Tool [global options] command [command options] [arguments...]
 ```
 
 ## Commands
