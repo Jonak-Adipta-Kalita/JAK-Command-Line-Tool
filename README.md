@@ -28,24 +28,10 @@ JAK-Command-Line-Tool [command]
 
 ## Commands
 
--   name: Prints JAK's Full Name
--   class: Prints JAK's Class
--   website: Opens JAK's Website Link in the Browser
--   api: Opens JAK's API Link in the Browser
--   discord_bot: Opens JAK's Discord Bot's Link in the Browser
--   youtube: Opens JAK's YouTube Channel Link in the Browser
--   instagram: Opens JAK's Instagram Link in the Browser
--   github: Opens JAK's Github Link in the Browser
--   twitter: Opens JAK's Twitter Link in the Browser
--   discord: Opens JAK's Discord Server Link in the Browser
--   reddit: Opens JAK's Reddit Community's Link in the Browser
--   twitch: Opens JAK's Twitch's Link in the Browser
--   itch_io: Opens JAK's Itch.io's Link in the Browser
--   spotify: Opens JAK's Spotify's Link in the Browser
--   school: Prints JAK's School's Full Name
--   mother_name: Prints JAK's Mother's Full Name
--   father_name: Prints JAK's Father's Full Name
--   vscode_extension: Opens JAK's VSCode Extension's Link in the Browser
+-   name-servers: Looks up the Name Servers for a Perticular Host
+-   ip: Looks up the IPs for a particular host
+-   cname: Looks up the CNAME for a particullar host
+-   mx: Looks up the MX Records for a particullar host
 
 ## Contribute
 
