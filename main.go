@@ -17,7 +17,7 @@ func main() {
 	netFlag := []cli.Flag{
 		cli.StringFlag {
 			Name: "host",
-			Value: "jonakadiptakalita.vercel.app",
+			Value: "jonakadiptakalita.tk",
 		},
 	}
 	
