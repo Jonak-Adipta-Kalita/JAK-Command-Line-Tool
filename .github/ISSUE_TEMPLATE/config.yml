@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+    - name: Feature Requests
+      url: https://github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool/discussions/new?category=ideas
+      about: Suggest an idea
+    - name: Github Community Support
+      url: https://github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool/discussions
+      about: Please ask and answer questions here.
+    - name: Twitter
+      url: https://twitter.com/AdiptaJonak
+      about: Get the product updates easily.
