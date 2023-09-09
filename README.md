@@ -1,6 +1,20 @@
+<br />
+
 <div align=center>
 
-# JAK Command Line Tool
+![Title](https://raw.githubusercontent.com/Jonak-Adipta-Kalita/JAK-Commnad-Line-Tool/main/assets/title.png)
+
+</div>
+
+<div align=justify>
+
+The CLI tool provides a comprehensive set of functionalities primarily focused on networking and package management for a [JAK-Programming-Language](https://github.com/Jonak-Adipta-Kalita/JAK-Programming-Language). Users can utilize this tool to configure network settings, monitor network activity, and troubleshoot connectivity issues with ease, all through a command-line interface. Additionally, it offers a robust package management system tailored to the designated programming language, simplifying the installation, updating, and removal of libraries, dependencies, and packages essential for software development. This versatile tool empowers developers and system administrators to efficiently handle networking tasks while seamlessly managing their programming language-specific software components, enhancing productivity and project management capabilities.
+
+</div>
+
+<br />
+
+<div align=center>
 
 ![License](https://img.shields.io/github/license/Jonak-Adipta-Kalita/JAK-Command-Line-Tool?style=for-the-badge)
 ![GitHub Repo Stars](https://img.shields.io/github/stars/Jonak-Adipta-Kalita/JAK-Command-Line-Tool?style=for-the-badge)
@@ -32,32 +46,6 @@ JAK-Command-Line-Tool [global options] command [command options] [arguments...]
 -   `ip`: Looks up the IPs for a particular host
 -   `cname`: Looks up the CNAME for a particullar host
 -   `mx`: Looks up the MX Records for a particullar host
-
-## Contribute
-
-### Clone the Repository
-
-To Clone this Repository, open a terminal in a empty folder and type
-
-```bash
-git clone https://github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool.git
-```
-
-### Test the CLI
-
-Open your favourite terminal in the Directory of the Cloned Repository and type
-
-```bash
-go run main.go
-```
-
-### Build EXE
-
-Open your favourite terminal in the Directory of the Cloned Repository and type
-
-```bash
-go build main.go
-```
 
 ## Technology(s) Used
 
