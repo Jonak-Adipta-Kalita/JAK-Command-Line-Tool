@@ -34,7 +34,7 @@ JAK-Command-Line-Tool [global options] command [command options] [arguments...]
 
 ## Commands
 
--   `networking`: Lookup DNS related Information of a Host
+-   `dns`: Lookup DNS related Information of a Host
 
 ## Community support
 

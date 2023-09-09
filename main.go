@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool/networking"
+	"github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool/dns"
 	"github.com/urfave/cli"
 )
 
@@ -19,10 +19,10 @@ func main() {
 
 	app.Commands = []cli.Command{
 		{
-			Name:        "networking",
+			Name:        "dns",
 			Aliases:     []string{"net"},
 			Usage:       "Lookup DNS related Information of a Host.",
-			Subcommands: networking.Commands,
+			Subcommands: dns.Commands,
 		},
 	}
 
