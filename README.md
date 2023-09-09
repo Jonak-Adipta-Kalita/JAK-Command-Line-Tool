@@ -24,14 +24,6 @@ The CLI tool is a versatile solution primarily focused on networking and package
 
 </div>
 
-## Set to Environment Variable
-
-### Windows
-
-Open `Enviroment Settings App` and click on `Environment Variables` then click on `Path` in
-`User Variables for Admin` and click `Edit` now in the Popup click `New` and paste the File
-Directory Structure for the `JAK-Command-Line-Tool.exe` you downloaded from the releases.
-
 ## Usage
 
 Open your favourite terminal and type
@@ -46,6 +38,22 @@ JAK-Command-Line-Tool [global options] command [command options] [arguments...]
 -   `ip`: Looks up the IPs for a particular host
 -   `cname`: Looks up the CNAME for a particullar host
 -   `mx`: Looks up the MX Records for a particullar host
+
+## Community support
+
+For additional help, you can use one of these channels to ask a question:
+
+-   [Github Discussions](https://github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool/discussions) - Discussions with the community and the team.
+-   [Github Issues](https://github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool/issues) - For bug reports and feature requests.
+-   [Twitter](https://twitter.com/AdiptaJonak) - Get the product updates easily.
+
+## Roadmap
+
+Check out our [roadmap](https://github.com/users/Jonak-Adipta-Kalita/projects/14) to get informed of the latest features released and the upcoming ones.
+
+## Contributing
+
+Kindly read our [Contributing Guide](CONTRIBUTING.md) to learn and understand about our development process, how to propose bug fixes and improvements, and how to build and test your changes to **JAK Mobile App**.
 
 ## Technology(s) Used
 
