@@ -1,4 +1,4 @@
-module github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Prog
+module github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool
 
 go 1.16
 
