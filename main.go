@@ -92,6 +92,24 @@ func main() {
 				return nil
 			},
 		},
+		{
+			Name:  "txt",
+			Usage: "Looks up the TXT Records for a particular host",
+			Flags: netFlag,
+			Action: func(ctx *cli.Context) error {
+				txt, err := net.LookupTXT(ctx.String("host"))
+				if err != nil {
+					fmt.Println(err)
+					return err
+				}
+
+				for i := 0; i < len(txt); i++ {
+					fmt.Println(txt[i])
+				}
+
+				return nil
+			},
+		},
 	}
 
 	err := app.Run(os.Args)
