@@ -13,7 +13,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "JAK Command Line Tool"
 	app.Compiled = time.Now()
-	app.Description = "This CLI tool combines networking management and a package manager specific to JAK's language, catering to the needs of developers and system administrators."
+	app.Description = "This CLI tool combines DNS inspector and a package manager specific to JAK's language, catering to the needs of developers and system administrators."
 	app.Version = "v1.0.1"
 	app.Copyright = "(c) 2021-now Jonak-Adipta-Kalita"
 
@@ -21,7 +21,7 @@ func main() {
 		{
 			Name:        "networking",
 			Aliases:     []string{"net"},
-			Usage:       "Configure network settings, monitor activity, and troubleshoot connectivity issues.",
+			Usage:       "Lookup DNS related Information of a Host.",
 			Subcommands: networking.Commands,
 		},
 	}

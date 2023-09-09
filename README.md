@@ -8,7 +8,7 @@
 
 <div align=justify>
 
-The CLI tool is a versatile solution primarily focused on networking and package management for the [JAK-Programming-Language](https://github.com/Jonak-Adipta-Kalita/JAK-Programming-Language). It enables users to configure network settings, monitor activity, and troubleshoot connectivity issues via a command-line interface. Additionally, it streamlines the installation, updating, and removal of language-specific libraries and packages, enhancing productivity for developers and system administrators.
+The CLI tool is a versatile solution primarily focused on DNS Inspecting and package management for the [JAK-Programming-Language](https://github.com/Jonak-Adipta-Kalita/JAK-Programming-Language). It enables users to lookup DNS related informartion via a command-line interface. Additionally, it streamlines the installation, updating, and removal of language-specific libraries and packages, enhancing productivity for developers and system administrators.
 
 </div>
 
@@ -34,7 +34,7 @@ JAK-Command-Line-Tool [global options] command [command options] [arguments...]
 
 ## Commands
 
--   `networking`: Configure network settings, monitor activity, and troubleshoot connectivity issues.
+-   `networking`: Lookup DNS related Information of a Host
 
 ## Community support
 
