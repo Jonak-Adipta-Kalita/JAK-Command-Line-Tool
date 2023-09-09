@@ -34,10 +34,7 @@ JAK-Command-Line-Tool [global options] command [command options] [arguments...]
 
 ## Commands
 
--   `name-servers:` Looks up the Name Servers for a Perticular Host
--   `ip`: Looks up the IPs for a particular host
--   `cname`: Looks up the CNAME for a particullar host
--   `mx`: Looks up the MX Records for a particullar host
+-   `networking`: Configure network settings, monitor activity, and troubleshoot connectivity issues.
 
 ## Community support
 

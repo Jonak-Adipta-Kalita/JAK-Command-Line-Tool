@@ -21,7 +21,7 @@ func main() {
 		{
 			Name:        "networking",
 			Aliases:     []string{"net"},
-			Usage:       "Networking Management",
+			Usage:       "Configure network settings, monitor activity, and troubleshoot connectivity issues.",
 			Subcommands: networking.Commands,
 		},
 	}
