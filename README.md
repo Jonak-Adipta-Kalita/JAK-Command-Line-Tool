@@ -2,13 +2,13 @@
 
 <div align=center>
 
-![Title](https://raw.githubusercontent.com/Jonak-Adipta-Kalita/JAK-Commnad-Line-Tool/main/assets/title.png)
+![Title](https://raw.githubusercontent.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool/main/assets/title.png)
 
 </div>
 
 <div align=justify>
 
-The CLI tool provides a comprehensive set of functionalities primarily focused on networking and package management for a [JAK-Programming-Language](https://github.com/Jonak-Adipta-Kalita/JAK-Programming-Language). Users can utilize this tool to configure network settings, monitor network activity, and troubleshoot connectivity issues with ease, all through a command-line interface. Additionally, it offers a robust package management system tailored to the designated programming language, simplifying the installation, updating, and removal of libraries, dependencies, and packages essential for software development. This versatile tool empowers developers and system administrators to efficiently handle networking tasks while seamlessly managing their programming language-specific software components, enhancing productivity and project management capabilities.
+The CLI tool is a versatile solution primarily focused on networking and package management for the [JAK-Programming-Language](https://github.com/Jonak-Adipta-Kalita/JAK-Programming-Language). It enables users to configure network settings, monitor activity, and troubleshoot connectivity issues via a command-line interface. Additionally, it streamlines the installation, updating, and removal of language-specific libraries and packages, enhancing productivity for developers and system administrators.
 
 </div>
 
