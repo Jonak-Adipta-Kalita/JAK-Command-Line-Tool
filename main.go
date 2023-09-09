@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"os"
+	"time"
 
 	"github.com/Jonak-Adipta-Kalita/JAK-Command-Line-Tool/networking"
 	"github.com/urfave/cli"
@@ -11,9 +12,19 @@ import (
 func main() {
 	app := cli.NewApp()
 	app.Name = "JAK Command Line Tool"
+	app.Compiled = time.Now()
 	app.Description = "This CLI tool combines networking management and a package manager specific to JAK's language, catering to the needs of developers and system administrators."
+	app.Version = "v1.0.1"
+	app.Copyright = "(c) 2021-now Jonak-Adipta-Kalita"
 
-	app.Commands = networking.Commands
+	app.Commands = []cli.Command{
+		{
+			Name:        "networking",
+			Aliases:     []string{"net"},
+			Usage:       "Networking Management",
+			Subcommands: networking.Commands,
+		},
+	}
 
 	err := app.Run(os.Args)
 
